@@ -1,0 +1,133 @@
+@import url(fonts.css);
+
+/* За допомогою плагіну Google fonts */
+/* @import url("https://fonts.googleapis.com/css?family=Yatra+One:regular&display=swap"); */
+
+/* Через сайт Google fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap'); */
+
+/* Напряму через папки */
+
+
+
+
+
+body{
+      font-family: "Ranade", sans-serif;
+      font-size: 14px;
+      text-align: center;
+      color: rgb(7, 27, 41);
+}
+
+.title1 h1 {
+   font-size: 24px;
+   font-weight: 700;
+   color: rgba(160, 81, 45, 0.527);
+
+}
+
+.title1 a{
+   font-size: 14px;
+   color: rgb(122, 134, 154);
+   text-decoration: underline;
+   text-decoration-color: rgba(204, 156, 10, 0.774);
+   text-decoration-style: double;
+}
+
+
+.enter p{
+   text-align: left;
+   line-height: 1.2;
+   letter-spacing: 1.2px;
+   word-spacing: 1.4px;
+   color: rgb(130, 35, 154);
+ 
+}
+
+.designers h2{
+   font-size: 20px;
+   font-weight: 700;
+   color: rgba(20, 111, 176, 0.777);
+}
+.designers p{
+   text-align: left;
+   color: rgb(130, 35, 154);
+   line-height:  1.2;
+}
+.designers span{
+   color: rgb(42, 34, 34);
+   text-shadow: 1px 1px 4px #2d0e70;
+   text-transform: uppercase;
+}
+
+.contacts {
+   font-size: 18px;
+   color: rgb(65, 142, 48);
+   text-align: left;
+   text-transform: capitalize;
+}
+
+/* Верстка макетів */
+
+/* Перший макет */
+
+
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap");
+.profuser {
+   font-family: "work sans", sans-serif;
+   text-align: left;
+}
+.profuser h2{
+   font-size: 38px;
+   color: rgb(19, 34, 56);
+   font-weight: 600;
+   line-height: 50px;
+}
+.profuser p{
+   font-weight: 400;
+   line-height: 24px;
+   color: rgb(85, 96, 112);
+}
+
+/* Другий макет */
+
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+
+.about {
+   font-family: "dm sans", sans-serif;
+   text-align: left;
+}
+.about h2{
+   font-size: 88px;
+   font-weight: 700;
+   line-height: 95px;
+   color: rgb(30, 27, 57);
+}
+.about p {
+columns: rgb(71, 68, 100);
+line-height: 42px;
+font-weight: 400;
+font-size: 24px;
+}
+
+
+/* Третій макет */
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+
+.product{
+   font-family: "Roboto", sans-serif;
+   text-align: left;
+}
+.product h2{
+   color: rgb(9, 17, 51);
+   letter-spacing: 1px;
+   line-height: 66px;
+   font-weight: 500;
+   font-size: 50px;
+}
+.product p{
+   color: rgb(80, 95, 152);
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+}
