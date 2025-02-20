@@ -1,0 +1,119 @@
+@import url("reset.css");
+header{
+   text-align: center;
+}
+
+/* project 1 */
+
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800&display=swap");
+.project1{
+   font-family: Epilogue, sans-serif;
+   background-color: rgb(253, 240, 233);
+}
+.content{
+   margin-inline: 135px;
+   text-align: center;
+   padding-block: 100px;
+}
+.part1{
+   display: inline-block;
+   margin-right: 170px;
+   padding-top: 50px;
+   text-align: left;
+   
+}
+.part1 h2{
+   color: rgb(239, 109, 88);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 32px;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+.part1 h3{
+   color: #391400;
+   font-size: 56px;
+   font-weight: 800;
+   line-height: 64px;
+   letter-spacing: -1px;
+   margin-bottom: 26px;
+}
+.part1 p{
+   color: rgb(56, 20, 0);
+   width: 470px;
+   height: 72px;
+   font-size: 20px;
+   line-height: 32px;
+   margin-bottom: 26px;
+}
+.part1 li{
+   background-image: url("../img/project1/check.png");
+   background-repeat: no-repeat;
+   min-height: 32px;
+   padding-left: 48px;
+   margin-bottom: 16px;
+   color: rgba(57, 20, 0, 0.64);
+   line-height: 32px;
+   font-weight: 400;
+}
+
+.part2{
+   display: inline-block;
+   min-height: 551px;
+   min-width: 529px;
+   background-image: url("../img/project1/pic.png");
+   vertical-align: top;
+}
+
+/* project 2 */
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+.project2{
+   font-family: Manrope, sans-serif;
+   text-align: center;
+   background-color: #141414;
+}
+.darkpart1{
+   min-height: 860px;
+   background: linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%),
+   url(../img/project2/Sub\ Container.png) center / cover no-repeat;
+   }
+.darkpart2{
+   margin-top: -100px;
+   max-width: 1092px;
+   margin-inline: auto;
+   margin-bottom: ;
+}
+.darkpart2 h2{
+   color: #FFF;
+   font-size: 58px;
+   font-weight: 700;
+   line-height: 150%;
+   margin-bottom: 14px;
+}
+.darkpart2 p{
+      color: rgb(153, 153, 153);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 150%;
+      margin-bottom: 50px;
+}
+
+
+.button a{
+   background-color: red;
+   padding: 18px 18px 18px 24px;
+   border-radius: 8px;
+   margin-bottom: 50px;
+}
+.button span{
+   display: inline-block;
+   color: #FFF;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 150%;
+   background: url(../img/project2/Icon.png) no-repeat;
+   padding-left: 30px;
+   min-height: 29px;
+}
