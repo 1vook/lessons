@@ -1,6 +1,6 @@
 @import url("reset.css");
 
- {
+ * {
    color: red;
 }
 h1 {
