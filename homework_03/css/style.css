@@ -1,0 +1,62 @@
+@import url("reset.css");
+
+ {
+   color: red;
+}
+h1 {
+   color: blue;
+}
+.lead {
+   color: hotpink;
+}
+#text-1{
+   color: gold;
+}
+[class^="text"]{
+   color: green;
+}
+div .text-6{
+   color: purple;
+}
+.text-4, 
+.text-5{
+   color: orange;
+}
+p.text-3{
+   color: rgb(62, 20, 127);
+}
+.copy *{
+   color: bisque;
+}
+.copy ~ p {
+   color: blueviolet;
+}
+.copy + p {
+   color: cadetblue;
+}
+.list a{
+   color: rgb(28, 139, 135);
+}
+/* Додаткове завдання */
+.items>ul>li {
+   color: red;
+}
+.items>ul>li~li {
+   color: green;
+}
+.items>ul>li>ul>li {
+   color: blue;
+}
+.items>ul>li>ul>li~li {
+   color: orange;
+}
+.items>ul>li>ul>li>ol>li {
+   color: #4597f7;
+}
+.items>ul>li>ul>li>ol>li~li {
+   color: #5d5d5d;
+}
+
+.items>ul>li>ul>li>span {
+   color: #a0f0fc;
+}
