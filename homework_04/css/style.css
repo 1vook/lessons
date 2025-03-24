@@ -1,0 +1,74 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Bytesized&display=swap'); - через сайт*/
+/* @import url("https://fonts.googleapis.com/css?family=Tauri:regular&display=swap"); - підключення через плагін */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+
+
+body{
+   font-family: "Caveat", fantasy;
+}
+h1{
+   color: mediumslateblue;
+   font-size: 40px;
+   font-weight: 700;
+}
+.titel{
+   text-align: center;
+   color: rgba(175, 14, 186, 0.348);;
+   font-size: 30px;
+   font-weight: 600;
+}
+.text{
+   font-family: "Pacifico", fantasy;
+   font-style: oblique;
+   color: rgb(0, 100, 0);
+   text-align: justify;
+}
+p a{
+   text-decoration: underline;
+   text-decoration-color: rgb(164, 39, 162);
+   text-decoration-style: wavy;
+   text-decoration-thickness: 1.5px;
+   text-underline-offset: 2px;
+}
+.list{
+   text-shadow: 5px 5px 5px blueviolet, -5px 2px 1px blueviolet;
+}
+h3{
+   text-transform: uppercase;
+}
+.list>ul>li{
+   text-transform: capitalize;
+   line-height: 1.5;
+   /* white-space: nowrap; */
+   word-spacing: 5px;
+}
+footer{
+   text-align: center;
+}
+ul>li>a{
+   text-decoration: underline;
+   text-decoration-style: double;
+   text-decoration-color: rgb(198, 119, 22);
+}
+
+/* Завдання з макету */
+
+.task2{
+   font-family: "Poppins", sans-serif;
+   font-size: 18px;
+}
+.titel2{
+   font-size: 20px;
+   color: #1A1A1A;
+   font-weight: 500;
+   line-height: 150%;
+}
+.text2{
+   color: #808080;
+   font-weight: 400;
+   line-height: 150%;
+}
