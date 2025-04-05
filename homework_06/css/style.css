@@ -1,0 +1,215 @@
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular&display=swap");
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap");
+
+.wrapper {
+   overflow: clip;
+   min-height: 100%;
+}
+
+.conteiner{
+   font-family: "roboto", sans-serif;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding-inline: 15px;
+}
+
+.conteiner img{
+   border: 7px solid yellow;
+   border-radius: 7px;
+}
+
+.conteiner h1{
+   border-block: 7px solid rgba(255, 255, 0, 0.349);
+}
+
+
+
+.header {
+   font-size: 25px;
+}
+
+.titel {
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 42px;
+   margin-bottom: 20px;
+}
+
+.img{
+   margin-bottom: 20px;
+}
+
+.img .conteiner{
+   box-shadow: inset 0px 5px 5px 4px rgba(0, 0, 0, 0.5);
+}
+.text{
+   margin-bottom: 50px;
+}
+
+.text .conteiner {
+   outline: 4px dotted yellow;
+   background: 
+   yellow url("../img/silverhand.jpg") 50% 0 / 50% no-repeat;
+}
+
+.text a{
+   color: yellow;
+   text-decoration: underline;
+}
+
+.text p{
+   margin-bottom: 10px;
+   opacity: 0.6;
+   color: rgb(22, 54, 112);
+}
+
+.hidden img{
+   visibility: hidden;
+}
+
+.footer {
+   font-size: 20px;
+}
+/* Project 1 */
+
+.project1 {
+   font-family: "poppins", sans-serif;
+   font-size: 14px;
+   line-height: 150%;
+   color: #808080;
+   margin-bottom: 200px;
+}
+
+.project1 .conteiner {
+   max-width: 648px;
+}
+   
+.pr1-text{
+   margin-bottom: 20px;
+}
+
+.pr1-p {
+   margin-bottom: 20px;
+}
+
+.pr1-list {
+   margin-bottom: 20px;
+}
+
+.pr1-list li {
+   margin-bottom: 14px;
+   background: url("../img/project1/check.png") 0 0 / 20px no-repeat;
+   padding-left: 28px;
+}
+ /* HYDRA VR */
+
+.project2 {
+   background: #302C42 0 0 / 100% no-repeat;
+   font-family: "Montserrat", sans-serif;
+   color: #FFF;
+}
+
+.hydra {
+   padding-top: 70px;
+   max-width: 1280px;
+   margin: 0 auto;
+   padding-bottom: 80px;
+}
+.hydra-line{
+   background: url("../img/project2/line1.png") top / 100% no-repeat,
+               url("../img/project2/line2.png") bottom / 100% no-repeat;
+   margin-bottom: 70px;
+               
+}
+
+.img-hydra{
+   display: inline-block;
+}
+
+.img-hydra img {
+   border-radius: 240px 100px;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   margin-right: 108px;
+}
+
+.hydra-about {
+   display: inline-block;
+   max-width: 630px;
+   vertical-align: top;
+   margin-top: 47px;
+}
+
+.hydra-about h3 {
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 36px;
+   margin-bottom: 5px;
+}
+
+.hydra-about h2 {
+   font-weight: 300;
+   text-transform: uppercase;
+   font-size: 36px;
+   margin-bottom: 42px;
+}
+.hydra-about p{
+   margin-bottom: 28px;
+}
+.hydra-buttom {
+   background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+   color: #343045;
+   font-weight: 700;
+   font-size: 12px;
+   padding: 17px 47px 16px 39px;
+   border-radius: 40px;
+}
+
+/* NAV */
+
+.nav{
+   border-radius: 90px;
+   background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+   box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+   min-height: 167px;
+}
+
+.nav ul{
+padding-top: 50px;
+}
+
+.nav li{
+   display: inline-block;;
+   min-height: 71px;
+}
+
+.list1{
+   background: url("../img/project2/location-icon.png") 0 50% / 70px no-repeat;
+   margin-left: 40px;
+   margin-right: 50px;
+   border-right: rgba(192, 183, 232, 0.33) solid 1px;
+}
+.list2{
+   background: url("../img/project2/phone-call.png") 0 50% / 70px no-repeat;
+   border-right: rgba(192, 183, 232, 0.33) solid 1px;
+   margin-right: 50px;
+}
+.list3 {
+   background: url("../img/project2/mail.png") 0 50% / 70px no-repeat;
+}
+
+.content{
+   padding-left: 85px;
+   padding-right: 40px;
+   font-family: "montserrat", sans-serif;
+}
+.content h4{
+   font-weight: 700;
+   font-size: 24px;
+   margin-bottom: 10px;
+}
+.content p {
+   font-size: 14px;
+}
