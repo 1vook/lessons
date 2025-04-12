@@ -1,0 +1,304 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap");
+
+.wrapper{
+   overflow: clip;
+   min-height: 100%;
+}
+.container{
+   font-family: "Roboto", sans-serif;
+   font-size: 17px;
+   width: 882px;
+   margin: 0 auto;
+   text-align: center;
+   line-height: 27px;
+}
+.container img{
+   margin-bottom: 20px;
+}
+.subtitel {
+   margin-bottom: 30px;
+   padding-inline: 15px;
+}
+
+.subtitel h1{
+   font-weight: 700;
+   text-align: left;
+   font-size: 30px;
+   line-height: 47px;
+}
+
+.subtitel p:not(:last-child){
+   margin-bottom: 20px;
+}
+
+.slogan {}
+
+.slogan h3{
+   font-weight: 700;
+   margin-bottom: 15px;
+}
+
+.slogan h3:hover{
+   color: orange;
+}
+
+.slogan h3:hover::before{
+   content: " ";
+   width: 72px;
+   height: 7px;
+   border-radius: 50%;
+   background-color: orange;
+}
+
+.slogan h3:active{
+   color: blue;
+}
+
+.slogan h3:visited{
+   color: green;
+}
+
+.slogan h3:focus{
+   outline: 3px solid blue;
+}
+
+
+.slogan p:not(:last-child){
+   margin-bottom: 15px;
+}
+
+.slogan h3:first-child{
+   text-transform: uppercase;
+}
+
+.slogan p:first-of-type{
+   text-decoration: underline;
+}
+
+.slogan p:nth-of-type(3){
+   text-decoration: line-through;
+}
+
+.slogan h3:nth-of-type(2n + 1):hover{
+   color: rgb(153, 14, 14);
+}
+
+/* project 1 */
+
+.project1 {
+   background-color: #412672;
+   font-family: "Inter", sans-serif;
+   margin-bottom: 100px;
+}
+
+.page1 {
+   padding-block: 70px;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+
+.page1 h2{
+   color: #fff;
+   font-size: 38px;
+   margin-bottom: 30px;
+   line-height: 46px;
+}
+
+.page1 h2 span{
+   display: block;
+   font-weight: 700;
+}
+
+.page1 li {
+   display: inline-block;
+   max-width: 347px;
+   max-height: 476px;
+   background-color: white;
+   padding: 20px;
+}
+
+.page1 li:not(:last-child){
+   margin-right: 20px;
+}
+
+.page1 li:hover{
+   background-color: rgb(255, 190, 72);
+}
+
+.items h3{
+   font-size: 22px;
+   font-weight: 700;
+}
+
+.items p {
+   min-height: 76px;
+   font-size: 15px;
+   line-height: 19px;
+   color: #4F4F4F;
+}
+
+.items *:not(:last-child){
+   margin-bottom: 15px;
+}
+
+.items a{
+   color: #FE3F3F;
+   line-height: 19px;
+   font-size: 15px;
+}
+
+.items a:hover{
+   text-decoration: underline;
+}
+
+/* project2 */
+
+.project2 {
+   margin-bottom: 200px;
+}
+
+.content2 {
+   font-family: "Inter", sans-serif;
+   color: #412672;
+   max-width: 518px;
+   margin: 0 auto;
+}
+
+.content2 *:not(:last-child){
+   margin-bottom: 20px;
+}
+
+.content2 p:nth-of-type(1){
+   margin-bottom: 30px;
+}
+
+.content2 h2{
+   line-height: 41px;
+   font-size: 34px;
+}
+.content2 span{
+   display: block;
+   font-weight: 700;
+   font-size: 34px;
+}
+
+.content2 p{
+   font-size: 22px;
+   line-height: 27px;
+}
+
+.content2 li{
+   line-height: 51px;
+   color: #4F4F4F;
+   font-size: 20px;
+}
+
+.content2 li::before{
+   content: "";
+   background: url("../img/project2/check.jpg") no-repeat;
+   width: 29px;
+   height: 29px;
+   vertical-align: middle;
+   margin-right: 15px;
+}
+
+/* game */
+
+.game {
+   padding: 50px 10px;
+   background: url("../img/game/game.jpg") no-repeat center / cover;
+   margin-bottom: 70px;
+}
+
+.game-container {
+   width: 1280px;
+   height: 853px;
+   margin: 0 auto;
+   font-size: 40px;
+   text-transform: uppercase;
+}
+
+.game-block {
+   visibility: hidden;
+}
+
+.game-block1 {
+   visibility: visible;
+}
+
+.game-block1,
+.game-block7 {
+   margin: 0 auto;
+   border: 1px solid black;
+   background-color: #95a0e7;
+   padding-block: 10px;
+   border-radius: 8px;
+   width: 200px;
+   text-align: center;
+   border-radius: 20%;
+}
+
+.game-block7 {
+   width: 500px;
+}
+
+.game-block:hover+.game-block,
+.game-block:hover {
+   visibility: visible;
+}
+
+.game-block2 {
+   width: 40px;
+   height: 250px;
+   background-color: #95a0e7;
+   border: 1px solid black;
+   margin-left: 50%;
+}
+
+.game-block3 {
+   width: 500px;
+   height: 50px;
+   background-color: #95a0e7;
+   border: 1px solid black;
+   margin-left: 50%;
+}
+
+.game-block4 {
+   width: 50px;
+   height: 150px;
+   background-color: #95a0e7;
+   border: 1px solid black;
+   margin-left: 85.2%;
+}
+
+.game-block5 {
+   width: 750px;
+   height: 50px;
+   background-color: #95a0e7;
+   border: 1px solid black;
+   margin-left: 30.5%;
+}
+
+.game-block6 {
+   width: 50px;
+   height: 225px;
+   background-color: #95a0e7;
+   border: 1px solid black;
+   margin-left: 30.5%;
+}
+
+.footer,
+.header{
+   font-size: 30px;
+   text-align: center;
+}
+
+.footer a:hover{
+   text-decoration: underline;
+   color: #95a0e7;
+}
+.footer{
+   padding-bottom: 50px;
+}
