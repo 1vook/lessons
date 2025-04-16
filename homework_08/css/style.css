@@ -109,6 +109,9 @@ li:hover{
 .img1 img{
    border-radius: 28% 0px;
 }
+.img1{
+   padding-bottom: 30px;
+}
 
 .img2{
    margin-bottom: 40px;
