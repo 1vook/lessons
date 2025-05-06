@@ -3,28 +3,24 @@
    overflow: clip;
    margin: -8px;
 }
-
 .footer{
    display: none;
 }
 .header{
    display: none;
 }
-
 .space{
    background: url("../img/space.avif") center / cover no-repeat;
    min-height: 2000px;
    width: 100%;
    perspective: 300px;
 }
-
 .rocket {
    margin: 0 auto;
    padding-top: 400px;
    height: 535px;
    width: 210px;
 }
-
 .rocket__top {
    background: linear-gradient(to right, #445EF7 20%, #8EA7F7 50%, #445EF7 80%);
    height: 70px;
@@ -34,7 +30,6 @@
    z-index: 100;
    border: 2px solid black;
 }
-
 .rocket__hull {
    width: 125px;
    height: 255px;
@@ -46,7 +41,6 @@
    z-index: 3;
    border: 2px solid black;
 }
-
 .rocket__window{
    height: 65px;
    width: 65px;
@@ -58,7 +52,6 @@
    outline: 6px solid #445ef7;
    border: 2px solid black;
 }
-
 .rocket__left-wing {
    height: 140px;
    width: 70px;
@@ -70,7 +63,6 @@
    z-index: 2;
    border: 2px solid black;
 }
-
 .rocket__right-wing {
    height: 140px;
    width: 70px;
@@ -82,7 +74,6 @@
    z-index: 2;
    border: 2px solid black;
 }
-
 .rocket__fire {
    width: 70px;
    height: 200px;
@@ -95,34 +86,27 @@
    border:  20px solid #FFB63A;
    z-index: 1;
 }
-
 .rocket:hover {
    padding-top: 50px;
    transition: all 0.8s;
    transform: rotateX(20deg);
 }
-
 .rocket:hover .rocket__top {
    background: linear-gradient(to top, #445EF7 0%, #8EA7F7 30%, #FFA500 50%, #FF6347 70%, #e21c1c 100%);
 }
-
 .rocket:hover .rocket__fire {
    transform: scale(1.2);
    height: 350px;
    background-color: #e21c1c;
 }
-
 .rocket:hover .rocket__right-wing,
 .rocket:hover .rocket__left-wing {
    background: linear-gradient(to top, #445EF7 0%, #8EA7F7 30%, #FFA500 50%, #FF6347 70%, #e21c1c 100%);
 }
-
-
 .practice {
    color: white;
    perspective: 400px;
 }
-
 .practice div {
    margin: 10px;
    display: inline-block;
@@ -136,34 +120,25 @@
    border: 3px solid white;
    font-size: 20px;
 }
-
-
-
 .transform:hover {
    transform: translate(10%, 20%);
 }
-
 .scale:hover {
    scale: 1.2;
 }
-
 .rotate:hover {
    rotate: 40deg;
 }
-
 .skew:hover {
    transform: skew(-10deg);
 }
-
 .matrix:hover {
    transform: matrix(1,5,2,5,2,8);
 }
-
 .transform-origin:hover {
    transform-origin: 90%;
    transform: rotate(20deg);
 }
-
 .perspective-transform3d:hover {
    transform: rotate3d(30, 20, 80, 40deg);
 }
