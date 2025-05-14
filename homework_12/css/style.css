@@ -1,0 +1,263 @@
+.wrapper{
+   min-height: 100%;
+   overflow: clip;
+   margin: -8px;
+}
+.footer{
+   display: none;
+}
+.header{
+   display: none;
+}
+.space{
+   background: url("../img/space.avif") center / cover no-repeat;
+   min-height: 2000px;
+   width: 100%;
+   perspective: 300px;
+   text-align: center;
+   position: relative;
+}
+.rocket {
+   margin: 1000px auto;
+   height: 535px;
+   width: 210px;
+}
+.rocket__top {
+   background: linear-gradient(to right, #445EF7 20%, #8EA7F7 50%, #445EF7 80%);
+   height: 70px;
+   width: 70px;
+   border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
+   position: relative;
+   z-index: 100;
+   border: 2px solid black;
+}
+.rocket__hull {
+   width: 125px;
+   height: 255px;
+   background: linear-gradient(to right, #D1D9E6 20%, #ECEFF4 50%, #D1D9E6 80%);
+   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+   position: relative;
+   right: 28px;
+   top: -25px;
+   z-index: 3;
+   border: 2px solid black;
+}
+.rocket__window{
+   height: 65px;
+   width: 65px;
+   border-radius: 50%;
+   background: url("../img/sensei.avif") center / cover  no-repeat;
+   position: relative;
+   top: 65px;
+   left: 30px;
+   outline: 6px solid #445ef7;
+   border: 2px solid black;
+}
+.rocket__left-wing {
+   height: 140px;
+   width: 70px;
+   background: linear-gradient(to right, #445EF7 10%, #8EA7F7 40%, #445EF7 90%);
+   border-radius: 100% 0% 100% 0% / 100% 100% 0% 0%;
+   position: relative;
+   bottom: 170px;
+   left: -80px;
+   z-index: 2;
+   border: 2px solid black;
+}
+.rocket__right-wing {
+   height: 140px;
+   width: 70px;
+   background: linear-gradient(to right, #445EF7 10%, #8EA7F7 40%, #445EF7 90%);
+   border-radius: 0% 100% 100% 0% / 0% 100% 0% 100%;
+   position: relative;
+   bottom: 310px;
+   left: 80px;
+   z-index: 2;
+   border: 2px solid black;
+}
+.rocket__fire {
+   width: 70px;
+   height: 200px;
+   background-color: #FFEE88;
+   border-radius: 50% 50% 50% 50% / 10% 10% 90% 90%;
+   position: relative;
+   top: -350px;
+   right: 18px;
+   outline: 25px solid #FF6808;
+   border:  20px solid #FFB63A;
+   z-index: 1;
+}
+.item {
+   display: inline-block;
+}
+/* .item:hover {
+   padding-top: 50px;
+   transition: all 0.8s;
+   transform: rotateX(20deg);
+}
+.item:hover .rocket__top {
+   background: linear-gradient(to top, #445EF7 0%, #8EA7F7 30%, #FFA500 50%, #FF6347 70%, #e21c1c 100%);
+}
+.item:hover .rocket__fire {
+   transform: scale(1.2);
+   height: 350px;
+   background-color: #e21c1c;
+}
+.item:hover .rocket__right-wing,
+.item:hover .rocket__left-wing {
+   background: linear-gradient(to top, #445EF7 0%, #8EA7F7 30%, #FFA500 50%, #FF6347 70%, #e21c1c 100%);
+} */
+.practice{
+   color: white;
+   position: absolute;
+   top: 0;
+   left: 25%;
+}
+.transition {
+   font-size: 20px;
+   text-transform: uppercase;
+}
+.transition__block {
+   display: inline-block;
+   width: 300px;
+   height: 300px;
+   background-color: #486eee;
+   border-radius: 20px;
+   margin: 20px;
+}
+.transition-duration {
+   transition-duration: 0.7s;
+}
+.transition-duration:hover{
+   transition-duration: 2s;
+   background-color: yellow;
+}
+.transition-property {
+   transition-duration: 2s, 4s;
+   transition-property: width, background-color;
+}
+.transition-property:hover{
+   width: 400px;
+   height: 400px;
+   color: #31c3bc;
+   background-color: #bf7a2b;
+}
+.transition-delay {
+   transition-duration: 1s, 1.2s;
+   transition-property: width, height;
+   transition-delay: 0s, 1s;
+}
+.transition-delay:hover {
+   width: 400px;
+   height: 400px;
+}
+.timing-function {
+   transition-duration: 1s, 1.2s;
+   transition-property: width, height;
+   transition-delay: 0s, 1s;
+   transition-timing-function: cubic-bezier(0.29, 1.01, 1, -0.68);
+}
+.timing-function:hover{
+   width: 500px;
+}
+.animation {
+   position: absolute;
+   top: 300px;
+   left: 0;
+   padding-top: 200px;
+}
+.animation__circle {
+   position: relative;
+   height: 300px;
+   width: 300px;
+   background-color: #1b53cc;
+   border-radius: 50%;
+   border: 8px dashed #D1D9E6;
+}
+@keyframes color-chenger {
+   0% {
+      background-color: #1b53cc;
+   }
+   50% {
+      background-color: #bf7a2b;
+   }
+   100% {
+      background-color: rgb(181, 23, 23);
+   }
+}
+@keyframes rotate{
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+         transform: rotate(360deg);
+   }
+}
+@keyframes move{
+   0% {
+      left: 0px;
+   }
+   100%{
+      left: 1000px;
+   }
+}
+.animation__circle{
+   animation-duration: 2s;
+   animation-name: color-chenger, move, rotate;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-fill-mode: forwards;
+}
+/* Homework animation */
+.item {
+   position: relative;
+}
+@keyframes move-rocket{
+   0%{
+      left: -1000px;
+   }
+   100%{
+      left: 5000px;
+   }
+}
+@keyframes rotate-rocket{
+   0%{
+      transform: rotate(0deg);
+   }
+   /* 50%{
+      transform: rotate(60deg);
+   } */
+   100%{
+      transform: rotate(90deg);
+   }
+}
+@keyframes fire-size{
+      0% {
+         height: 200px;
+         transform: scale(0.7);
+      }
+   
+      50% {
+         height: 280px;
+         transform: scale(1.1);
+      }
+   
+      100% {
+         height: 600px;
+         transform: scale(1.2);
+      }
+}
+.rocket {
+   position: relative;
+   right: 1000px;
+   animation-delay: 3s, 0s;
+   animation-name: move-rocket, rotate-rocket;
+   animation-duration: 9s, 5s;
+   animation-fill-mode: forwards;
+}
+.rocket__fire {
+   animation-duration: 0s;
+   animation-name: fire-size;
+   animation-duration: 5s;
+   animation-fill-mode: forwards;
+}
