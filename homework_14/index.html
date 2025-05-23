@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/style.css">
+      <title>Homework 14</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <header class="header">
+            i am header
+         </header>
+         <main class="page">
+            <div class="conteiner-info">
+               <div class="info">
+                  <h2>Billing Information</h2>
+                  <div class="info__name-row">
+                     <div class="form-input">
+                        <form action="#" method="post"
+                           enctype="multipart/form-data">
+                           <label for="name1">First name</label>
+                           <input type="text" placeholder="Your first name"
+                              id="name1" required>
+                        </form>
+                     </div>
+                     <div class="form-input">
+                        <form action="#" method="post"
+                           enctype="multipart/form-data">
+                           <label for="name2">Last name</label>
+                           <input type="text" placeholder="Your last name"
+                              id="name2">
+                        </form>
+                     </div>
+                     <div class="form-input">
+                        <form action="#" method="post"
+                           enctype="multipart/form-data">
+                           <label for="name3">Company Name
+                              <span>(optional)</span></label>
+                           <input type="text" placeholder="Company name"
+                              id="name3">
+                        </form>
+                     </div>
+                  </div>
+                  <div class="info__email">
+                     <div class="form-input">
+                        <form action="#" method="post"
+                           enctype="multipart/form-data">
+                           <label for="name4">Street Address</label>
+                           <input type="email" placeholder="Email"
+                              id="name4">
+                        </form>
+                     </div>
+                  </div>
+                  <div class="info__name-row">
+                     <div class="form-input">
+                        <form action="#" method="post"
+                           enctype="multipart/form-data">
+                           <label for="name5">Country / Region</label>
+                           <select name="form[]" id="name5">
+                              <option value="1">Kyiv</option>
+                              <option value="2">Zhytomyr</option>
+                              <option value="3">Chernihiv</option>
+                           </select>
+                        </form>
+                     </div>
+                     <div class="form-input">
+                        <form action="#" method="post"
+                           enctype="multipart/form-data">
+                           <label for="name6">States</label>
+                           <select name="form[]" id="name6">
+                              <option value="1">Novozavodsky</option>
+                              <option value="2">Desnyansky</option>
+                           </select>
+                        </form>
+                     </div>
+                     <div class="form-input">
+                        <form action="#" method="post"
+                           enctype="multipart/form-data">
+                           <label for="name7">Zip Code</label>
+                           <input type="text" placeholder="Zip Code"
+                              id="name7">
+                        </form>
+                     </div>
+                  </div>
+                  <div class="info__name-row info__name-row--width">
+                     <div class="form-input">
+                        <form action="#" method="post"
+                           enctype="multipart/form-data">
+                           <label for="name8">Email</label>
+                           <input type="text" placeholder="Email Address"
+                              id="name8">
+                        </form>
+                     </div>
+                     <div class="form-input">
+                        <form action="#" method="post"
+                           enctype="multipart/form-data">
+                           <label for="name9">Phone</label>
+                           <input type="tel" placeholder="Phone number"
+                              id="name9">
+                        </form>
+                     </div>
+                  </div>
+                  <div class="info__checkbox">
+                     <form action="#" method="post"
+                        enctype="multipart/form-data">
+                        <label>
+                           <input autocomplete="off" type="checkbox"
+                              name="form[]">
+                           <span>Ship to a different address</span>
+                        </label>
+                     </form>
+                  </div>
+                  <div class="line"></div>
+                  <h2>Additional Info</h2>
+                  <div class="info__textarea">
+                     <form action="#" action="#" method="post"
+                        enctype="multipart/form-data">
+                        <textarea name="name10" id="name10"
+                           placeholder="Notes about your order, e.g. special notes for delivery">
+                        </textarea>
+                     </form>
+                  </div>
+               </div>
+               <div class="basket">
+                  <div class="order">
+                     <h2>Order Summery</h2>
+                     <div class="capsicum">
+                        <div class="row-capsicum">
+                           <img src="img/green-capsicum.avif"
+                              alt="Green Capsicum">
+                           <p>Green Capsicum x5</p>
+                           <p>$70.00</p>
+                        </div>
+                        <div class="row-capsicum">
+                           <img src="img/red-capsicum.avif" alt="Red Capsicum">
+                           <p>Green Capsicum x1</p>
+                           <p>$14.00</p>
+                        </div>
+                     </div>
+                     <div class="cost">
+                        <div class="cost__subtotal">
+                           <p>Subtotal:</p>
+                           <strong>$84.00</strong>
+                        </div>
+                        <div class="line"></div>
+                        <div class="cost__subtotal">
+                           <p>Shipping:</p>
+                           <strong>Free</strong>
+                        </div>
+                        <div class="line"></div>
+                        <div class="cost__subtotal">
+                           <p>Total:</p>
+                           <strong>$84.00</strong>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="payment">
+                     <div class="payment__method">
+                        <h2>Payment Method</h2>
+                        <form action="#">
+                           <label>
+                              <input autocomplete="off" type="radio"
+                                 name="form[payment-method]">
+                              <span>Cash on Delivery</span>
+                           </label>
+                           <label>
+                              <input autocomplete="off" type="radio"
+                                 name="form[payment-method]">
+                              <span>Paypal</span>
+                           </label>
+                           <label>
+                              <input autocomplete="off" type="radio"
+                                 name="form[payment-method]">
+                              <span>Amazon Pay</span>
+                           </label>
+                        </form>
+                     </div>
+                  </div>
+                  <button type="button">Place Order</button>
+               </div>
+            </div>
+         </main>
+         <footer class="footer">
+            i am footer
+         </footer>
+      </div>
+   </body>
+</html>
