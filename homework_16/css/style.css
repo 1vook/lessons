@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+
+.wrapper {
+   font-family:"Montserrat", sans-serif;
+   font-weight: 500;
+}
+
+.header {
+   background-color: #f9e1d0;
+   position: sticky;
+   top: 0;
+   z-index: 50;
+   color: #000;
+}
+
+.header__conteiner {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding-inline: 15px;
+}
+
+.header__row {
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+   align-items: center;
+   padding-block: 30px 27px;
+}
+
+.header__logo {
+   display: flex;
+   gap: 6px;
+   align-items: center;
+}
+.header__logo h1{
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 150%;
+   text-transform: uppercase;
+}
+
+.header__menu {
+   display: flex;
+   gap: 30px;
+}
+.header__menu a {
+   position: relative;
+   transition: color 0.3s ease;
+}
+.header__menu a::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 2px;
+   background: #f26522;
+   transform: scaleX(0);
+   transform-origin: right;
+   transition: transform 0.3s ease;
+}
+
+@media (any-hover: hover){
+   .header__menu a:hover {
+         color: #f26522;
+      }
+   
+      .header__menu a:hover::after {
+         transform: scaleX(1);
+         transform-origin: left;
+      }
+}
+.header__menu a:hover {
+   color: #f26522;
+}
+.header__menu a:hover::after {
+   transform: scaleX(1);
+   transform-origin: left;
+}
+.header__button{
+   flex-shrink: 0;
+}
+.header__button a{
+   padding: 8px 30px;
+   background-color: #f26522;
+   border-radius: 30px;
+   color: #fff;
+   display: inline-flex;
+   align-items: center;
+   gap: 8px;
+}
+.header__button a::after{
+   content: '';
+   background: url("../img/arrow.svg");
+   height: 24px;
+   width: 24px;
+}
+.icon-menu {
+   display: none;
+}
+@media (max-width: 940px){
+   h1{
+      display: none;
+   }
+}
+@media (max-width: 775px){
+   .icon-menu {
+      display: block;
+      width: 30px;
+      height: 18px;
+      position: relative;
+   }
+   .icon-menu::before,
+   .icon-menu::after,
+   .icon-menu span {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 2px;
+      left: 0;
+      transition: all 0.3s;
+      background-color: #000;
+   }
+   .icon-menu::before {
+      top: 0;
+   }
+      
+   .icon-menu::after {
+      bottom: 0;
+   }
+   .icon-menu span {
+      top: 50%;
+         transform: translateY(-50%);
+   }
+      
+   .menu-open .icon-menu span {
+      width: 0;
+   }
+      
+   .menu-open .icon-menu::before {
+      top: 50%;
+      transform: rotate(-45deg) translateY(-2px);
+   }
+      
+   .menu-open .icon-menu::after {
+      bottom: 50%;
+      transform: rotate(45deg) translateY(2px);
+   }
+   .header__menu{
+      display: none;
+   }
+   h1 {
+      display: flex;
+   }
+   .header__menu{
+      position: fixed;
+      top: 102px;
+      right: -100%;
+      width: 100%;
+      height: 60%;
+      text-transform: uppercase;
+      background-color: #f2642273;
+      color: #fff;
+      padding: 30px 15px;
+      flex-direction: column;
+      gap: 30px;
+      display: inline-flex;
+      transition: right 0.3s ease;
+      z-index: 100;
+   }
+}
+@media (max-width: 467px){
+   h1{
+      display: none;
+   }
+}
+body.menu-open .header__menu {
+   right: 0;
+}
+
+
+.page {}
+
+.footer {}
