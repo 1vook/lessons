@@ -1,0 +1,105 @@
+header,
+footer {
+   display: none;
+}
+
+body {
+   background-color: rgba(0, 0, 0, 0.671);
+   color           : white;
+   padding         : 1.875rem;
+}
+
+main {
+   position: relative;
+   height  : 100svh;
+}
+
+.test-1 {
+   background-color: rgba(119, 6, 6, 0.596);
+   padding         : 1.25rem;
+   border-radius   : 0.3125rem;
+   display         : flex;
+   justify-content : center;
+   align-items     : center;
+   text-transform  : uppercase;
+   margin-bottom   : 1rem;
+
+   max-width: 75%;
+   position : relative;
+   left     : 10%;
+   top      : 1%;
+}
+
+.test-2 {
+   background-color: rgba(119, 6, 6, 0.596);
+   padding         : 1.25rem;
+   border-radius   : 0.3125rem;
+   display         : flex;
+   justify-content : center;
+   align-items     : center;
+   text-transform  : uppercase;
+   margin-bottom   : 1rem;
+
+   width : 37.5rem;
+   height: 12.5rem;
+}
+
+@media (max-width: 48em) {
+   .test-1 {
+      width: 100%;
+      left : 0;
+      top  : 0;
+   }
+
+   .test-2 {
+      width : 100%;
+      height: auto;
+   }
+}
+
+.test-3 {
+   background-color   : rgba(119, 6, 6, 0.596);
+   padding            : 1.25rem;
+   border-radius      : 0.3125rem;
+   display            : flex;
+   justify-content    : center;
+   align-items        : center;
+   /* text-transform  : uppercase; */
+   margin-bottom      : 1rem;
+   /* display: none; */
+
+
+   position: absolute;
+   width   : 50%;
+   right   : 20%;
+   left    : 20%;
+
+   top   : 40%;
+   bottom: 20%;
+
+   font-size  : 1.7rem;
+   line-height: 1.7;
+}
+:root {
+   --color1: rgba(36, 6, 119, 0.596);
+}
+
+.test-4 {
+   background-color   : rgba(119, 6, 6, 0.596);
+   padding            : 1.25rem;
+   border-radius      : 0.3125rem;
+   display            : flex;
+   justify-content    : center;
+   align-items        : center;
+   text-transform  : uppercase;
+   margin-bottom      : 1rem;
+   position: relative;
+   top: 16.75rem;
+   color: var(--color1);
+
+   /* width: 50vh; */
+   height: 80svh;
+
+   width: clamp(12.5rem, 5.682rem + 34.09vw, 31.25rem); 
+   /* 200>500  320>1200 */
+}
